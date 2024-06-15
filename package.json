@@ -27,6 +27,7 @@
         "@splidejs/splide": "^4.1.4",
         "@splidejs/splide-extension-auto-scroll": "^0.5.3",
         "canvas-confetti": "^1.9.3",
+        "gsap": "^3.12.5",
         "photoswipe": "^5.4.4",
         "vanilla-headless": "^0.10.1"
     }

@@ -1,7 +1,11 @@
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
-            <x-authentication-card-logo />
+            <a class="font-druk text-7xl text-primary-500" href="{{ route('dashboard.index') }}">
+                {{ config('app.name') }}
+            </a>
+{{--            <x-authentication-card-logo />--}}
+
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600 dark:text-gray-400">

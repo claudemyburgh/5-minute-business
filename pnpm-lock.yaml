@@ -14,6 +14,9 @@ dependencies:
   canvas-confetti:
     specifier: ^1.9.3
     version: 1.9.3
+  gsap:
+    specifier: ^3.12.5
+    version: 3.12.5
   photoswipe:
     specifier: ^5.4.4
     version: 5.4.4
@@ -876,6 +879,10 @@ packages:
       minipass: 7.1.2
       path-scurry: 1.11.1
     dev: true
+
+  /gsap@3.12.5:
+    resolution: {integrity: sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==}
+    dev: false
 
   /hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}

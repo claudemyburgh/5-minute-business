@@ -1,7 +1,10 @@
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
-            <x-authentication-card-logo />
+            <a class="font-druk text-7xl text-primary-500" href="{{ route('dashboard.index') }}">
+                {{ config('app.name') }}
+            </a>
+{{--            <x-authentication-card-logo />--}}
         </x-slot>
 
         <x-validation-errors class="mb-4" />

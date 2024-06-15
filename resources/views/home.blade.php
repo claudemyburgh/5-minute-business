@@ -1,25 +1,7 @@
 <x-main-layout>
 
-    <x-hero/>
-
-    <section class="my-24 wrapper">
-        <x-text.heading-2 >
-            Business Names <span class="text-primary-500">Generator</span>
-        </x-text.heading-2>
-        <x-text.leading>
-            Struggling to thing of a unique business name or the names you choose is taken by someone else. Simply use the business name generator a name for you.
-        </x-text.leading>
-
-
-        <div class="flex flex-wrap shadow-lg shadow-black/20 gap-4 my-4 text-md font-mono border border-primary-500/50 bg-gray-900 p-8 rounded-xl relative">
-            <x-svg.line.coner class="-top-[6px] -left-[6px] w-[250px]"/>
-            <x-svg.line.coner class="rotate-180 -right-[6px] -bottom-[6px] w-[250px]"/>
-            @foreach(collect($business_names)->take(24) as $name)
-                <span class="even:text-primary-500 odd:rotate-2 even:-rotate-1">{{ $name }}</span> *
-            @endforeach
-            and many more ...
-        </div>
-    </section>
+    <x-section.hero/>
+    <x-section.business-name-generation :$business_names/>
 
 
     <section class="wrapper my-24">

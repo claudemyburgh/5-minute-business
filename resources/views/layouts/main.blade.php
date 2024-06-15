@@ -20,12 +20,12 @@
 <body class="font-sans antialiased overflow-x-clip min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-700 dark:text-gray-200 selection:bg-primary-400 selection:text-white">
 
 
-    <x-navbar/>
+    <x-section.navbar/>
     <!-- Page Content -->
     <main>
         {{ $slot }}
     </main>
-
+    <x-section.footer/>
 
 @stack('modals')
 @livewireScripts
