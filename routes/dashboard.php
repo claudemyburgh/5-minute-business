@@ -1,7 +1,7 @@
 <?php
 
     use App\Http\Controllers\Dashboard\DashboardIndexController;
-    use App\Http\Controllers\Dashboard\Register\BusinessCreateController;
+    use App\Http\Controllers\Dashboard\Register\CompanyCreateController;
     use App\Http\Controllers\Dashboard\Register\BusinessIndexController;
     use Illuminate\Support\Facades\Route;
 
@@ -11,7 +11,7 @@
     'verified',
 ], 'as' => 'dashboard.'], function () {
     Route::get('/dashboard', DashboardIndexController::class)->name('index');
-    Route::get('/dashboard/register-business', BusinessCreateController::class)->name('register-business.index');
+    Route::get('/dashboard/register-company', CompanyCreateController::class)->name('register-company.index');
 });
 
 

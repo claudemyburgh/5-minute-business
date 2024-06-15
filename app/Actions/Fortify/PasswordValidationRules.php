@@ -15,10 +15,11 @@ trait PasswordValidationRules
     {
         return ['required', 'string',
             Password::default()
-                ->mixedCase()
-                ->uncompromised(5)
-                ->symbols()
-                ->letters(),
+//                ->mixedCase()
+//                ->uncompromised(5)
+//                ->symbols()
+//                ->letters()
+            ,
             'confirmed'];
     }
 }

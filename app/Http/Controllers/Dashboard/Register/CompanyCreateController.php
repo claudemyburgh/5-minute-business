@@ -5,12 +5,12 @@
 	use App\Http\Controllers\Controller;
     use Illuminate\View\View;
 
-    class BusinessCreateController extends Controller
+    class CompanyCreateController extends Controller
 	{
 
 
         public function __invoke(): View
         {
-            return view('dashboard.register.business.create');
+            return view('dashboard.register.company.create');
         }
     }

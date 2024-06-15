@@ -19,6 +19,8 @@
 </head>
 <body class="font-sans antialiased overflow-x-clip min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-100 selection:bg-primary-400 selection:text-white">
 
+
+    <x-navbar/>
     <!-- Page Content -->
     <main>
         {{ $slot }}
@@ -26,7 +28,8 @@
 
 
 @stack('modals')
-
 @livewireScripts
+
+
 </body>
 </html>

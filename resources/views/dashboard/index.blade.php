@@ -7,10 +7,20 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-xl sm:rounded-lg">
-                <x-welcome />
+
+{{--                <x-welcome />--}}
+
+                <div class="grid grid-cols-6 gap-4 my-4">
+                  <div class="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-100 rounded p-4">
+                      <a class="w-full aspect-square items-center rounded justify-center flex bg-primary-400" href="{{ route('dashboard.register-company.index') }}">Create Company</a>
+                  </div>
                 </div>
-            </div>
+
+
         </div>
     </div>
+
+    @section('scripts')
+
+    @endsection
 </x-app-layout>
