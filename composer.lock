@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d89766ea715b2419ee8dd44fdffcc886",
+    "content-hash": "12b380d00d715bb19f0fe51d57d16635",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -238,6 +238,143 @@
                 "source": "https://github.com/DASPRiD/Enum/tree/1.0.5"
             },
             "time": "2023-08-25T16:18:39+00:00"
+        },
+        {
+            "name": "designbycode/business-name-generator",
+            "version": "v1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/designbycode/business-name-generator.git",
+                "reference": "f56b843da541f8a606f27f07d683b9f7b2720b46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/designbycode/business-name-generator/zipball/f56b843da541f8a606f27f07d683b9f7b2720b46",
+                "reference": "f56b843da541f8a606f27f07d683b9f7b2720b46",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1|^8.2|^8.3"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.0",
+                "pestphp/pest": "^2.20",
+                "spatie/ray": "^1.28"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Designbycode\\BusinessNameGenerator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Claude Myburgh",
+                    "email": "claude@designbycode.co.za",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is my package business-name-generator",
+            "homepage": "https://github.com/designbycode/business-name-generator",
+            "keywords": [
+                "business-name-generator",
+                "designbycode"
+            ],
+            "support": {
+                "issues": "https://github.com/designbycode/business-name-generator/issues",
+                "source": "https://github.com/designbycode/business-name-generator/tree/v1.2.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/designbycode",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-06-08T20:55:51+00:00"
+        },
+        {
+            "name": "designbycode/laravel-business-name-generator",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/designbycode/laravel-business-name-generator.git",
+                "reference": "096a48ca64a558bbdf95a2650898bc3b660e8e02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/designbycode/laravel-business-name-generator/zipball/096a48ca64a558bbdf95a2650898bc3b660e8e02",
+                "reference": "096a48ca64a558bbdf95a2650898bc3b660e8e02",
+                "shasum": ""
+            },
+            "require": {
+                "designbycode/business-name-generator": "^1.1.0",
+                "illuminate/contracts": "^10.0||^11.0",
+                "php": "^8.2|^8.3",
+                "spatie/laravel-package-tools": "^1.16"
+            },
+            "require-dev": {
+                "larastan/larastan": "^2.9",
+                "laravel/pint": "^1.14",
+                "nunomaduro/collision": "^8.1.1||^7.10.0",
+                "orchestra/testbench": "^9.0.0||^8.22.0",
+                "pestphp/pest": "^2.34",
+                "pestphp/pest-plugin-arch": "^2.7",
+                "pestphp/pest-plugin-laravel": "^2.3",
+                "phpstan/extension-installer": "^1.3",
+                "phpstan/phpstan-deprecation-rules": "^1.1",
+                "phpstan/phpstan-phpunit": "^1.3",
+                "spatie/laravel-ray": "^1.35"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Designbycode\\LaravelBusinessNameGenerator\\BusinessNameGeneratorServiceProvider"
+                    ],
+                    "aliases": {
+                        "BusinessNameGenerator": "Designbycode\\LaravelBusinessNameGenerator\\Facades\\BusinessNameGenerator"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Designbycode\\LaravelBusinessNameGenerator\\": "src/",
+                    "Designbycode\\LaravelBusinessNameGenerator\\Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Claude Myburgh",
+                    "email": "claude@designbycode.co.za",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is my package laravel-business-name-generator",
+            "homepage": "https://github.com/designbycode/laravel-business-name-generator",
+            "keywords": [
+                "designbycode",
+                "laravel",
+                "laravel-business-name-generator"
+            ],
+            "support": {
+                "issues": "https://github.com/designbycode/laravel-business-name-generator/issues",
+                "source": "https://github.com/designbycode/laravel-business-name-generator/tree/v1.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/designbycode",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-06-08T18:25:12+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -9651,5 +9788,5 @@
         "php": "^8.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }

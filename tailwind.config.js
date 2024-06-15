@@ -14,12 +14,12 @@ export default {
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
     ],
-
+    darkMode: "class",
     theme: {
         extend: {
             colors: {
-                primary: colors.orange,
-                secondary: colors.amber,
+                primary: colors.amber,
+                secondary: colors.lime,
                 gray: {
                     DEFAULT: '#37506D',
                     50: '#EBEFF5',

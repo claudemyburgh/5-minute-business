@@ -1,4 +1,4 @@
-<header class="bg-gray-900/80 w-full fixed backdrop-blur inset-x-0 top-0 min-h-[60px] items-center flex shadow shadow-primary-500/20 z-50">
+<header class="bg-gray-100/50 dark:bg-gray-900/80 w-full fixed backdrop-blur inset-x-0 top-0 min-h-[50px] items-center flex shadow shadow-primary-500/20 z-50">
     <div class="wrapper">
         <div class="flex justify-end">
             <div class="sr-only">

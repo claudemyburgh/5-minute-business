@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}"  class="scroll-smooth dark">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,10 +17,10 @@
         <!-- Styles -->
         @livewireStyles
     </head>
-    <body>
-        <div class="font-sans text-gray-900 dark:text-gray-100 antialiased">
+    <body class="font-sans antialiased overflow-x-clip min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-700 dark:text-gray-200 selection:bg-primary-400 selection:text-white">
+
             {{ $slot }}
-        </div>
+
 
         @livewireScripts
     </body>
