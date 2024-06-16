@@ -11,6 +11,9 @@
         "forceConsistentCasingInFileNames": true,
         "noEmit": true,
         "baseUrl": "./",
+        "files": [
+            "node_modules/gsap/types/index.d.ts"
+        ],
         "types": [
             "react",
             "vite/client"

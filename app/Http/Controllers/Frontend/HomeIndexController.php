@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Frontend;
 
+use App\Enums\CompanyTypeEnum;
 use App\Http\Controllers\Controller;
 
 use Designbycode\LaravelBusinessNameGenerator\Facades\BusinessNameGenerator;
@@ -15,6 +16,8 @@ class HomeIndexController extends Controller
      */
     public function __invoke(): View
     {
+
+
 
         return view('home', [
             'business_names' => BusinessNameGenerator::generateMultiple('all', 'default', 100)

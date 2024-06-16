@@ -8,9 +8,10 @@
     class CompanyCreateController extends Controller
 	{
 
-
         public function __invoke(): View
         {
+
+
             return view('dashboard.register.company.create');
         }
     }

@@ -2,7 +2,9 @@
 
 namespace App\Providers;
 
-use App\Components\BusinessWizardComponent;
+
+
+use App\Livewire\Company\RegisterCompany;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
 
@@ -13,7 +15,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        Livewire::component('step-wizard', BusinessWizardComponent::class);
+        Livewire::component('company-wizard', RegisterCompany::class);
 
     }
 

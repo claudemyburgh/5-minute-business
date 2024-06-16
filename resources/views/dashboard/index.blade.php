@@ -16,6 +16,12 @@
                   </div>
                 </div>
 
+                <ul class="p-8 rounded bg-gray-950 ">
+                    @foreach($companies as $company)
+                        <li class="text-white">{{ $company->company_type }} - {{ $company->created_at->diffForHumans() }}</li>
+                    @endforeach
+                </ul>
+
 
         </div>
     </div>

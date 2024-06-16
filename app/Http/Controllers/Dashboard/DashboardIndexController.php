@@ -16,8 +16,8 @@ class DashboardIndexController extends Controller
     public function __invoke(Request $request): View
     {
 
-
-
-        return view('dashboard.index');
+        return view('dashboard.index', [
+            'companies' => auth()->user()->companies()->get()
+        ]);
     }
 }

@@ -1,8 +1,8 @@
 <x-main-layout>
 
     <x-section.hero/>
+    <x-section.stats/>
     <x-section.business-name-generation :$business_names/>
-
 
     <section class="wrapper my-24">
         <x-text.heading-2 class="text-center">

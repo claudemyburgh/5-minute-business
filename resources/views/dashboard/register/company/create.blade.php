@@ -5,8 +5,6 @@
         </h2>
     </x-slot>
     <div class="py-12">
-       <div class="wrapper">
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aliquam aperiam autem consectetur culpa cum eaque, earum eos excepturi explicabo facilis illo iusto magnam molestias placeat quas reiciendis saepe.
-       </div>
+        <livewire:company-wizard/>
     </div>
 </x-app-layout>
