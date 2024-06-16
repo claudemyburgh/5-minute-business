@@ -29,6 +29,7 @@
         "canvas-confetti": "^1.9.3",
         "gsap": "^3.12.5",
         "photoswipe": "^5.4.4",
-        "vanilla-headless": "^0.10.1"
+        "vanilla-headless": "^0.10.1",
+        "chart.js": "^4.4.3"
     }
 }

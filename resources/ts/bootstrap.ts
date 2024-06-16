@@ -2,6 +2,8 @@ import axios, { AxiosInstance } from "axios"
 import Splide from "@splidejs/splide"
 import "@splidejs/splide/css"
 import RandomHighlighter from "./RandomHighlighter"
+import "./counters"
+import "./charts"
 
 declare global {
   interface Window {
@@ -11,7 +13,7 @@ declare global {
 
 new RandomHighlighter({
   scale: 1.2,
-  randomItemAmount: 10,
+  randomItemAmount: 3,
 })
 
 window.axios = axios
