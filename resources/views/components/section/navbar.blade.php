@@ -1,8 +1,10 @@
 <header class="bg-gray-100/50 dark:bg-gray-900/80 w-full fixed backdrop-blur inset-x-0 top-0 min-h-[50px] items-center flex shadow shadow-primary-500/20 z-50">
     <div class="wrapper">
-        <div class="flex justify-end">
-            <div class="sr-only">
-                logo
+        <div class="flex justify-end items-center">
+            <div class="flex items-center">
+                <a class="font-druk text-5xl text-transparent bg-gradient-to-b from-primary-500 to-primary-600/50 bg-clip-text" href="{{ route('dashboard.index') }}">
+                    {{ config('app.name') }}
+                </a>
             </div>
             @if (Route::has('login'))
                 <nav class="-mx-3 flex flex-1 justify-end">
