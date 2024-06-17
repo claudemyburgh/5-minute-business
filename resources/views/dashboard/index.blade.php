@@ -8,19 +8,19 @@
     <div class="py-12">
         <div class="wrapper">
 
-{{--                <x-welcome />--}}
+            {{--                <x-welcome />--}}
 
-                <div class="grid grid-cols-6 gap-4 my-4">
-                  <div class="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-100 rounded p-4">
-                      <a class="w-full aspect-square items-center rounded justify-center flex bg-primary-400" href="{{ route('dashboard.register-company.index') }}">Create Company</a>
-                  </div>
-                </div>
-
-                <ul class="p-8 rounded bg-gray-950 ">
+            <div class="flex space-x-4 my-4">
+                <a class="items-center rounded justify-center px-4 py-3 inline-flex bg-white font-semibold hover:bg-gray-100 text-gray-900" href="{{ route('dashboard.register-company.index') }}">Create Company</a>
+            </div>
+            <div class="max-w-sm p-4 rounded bg-gray-800 ">
+                <h3 class="text-white font-semibold text-xl mb-4">Registered Companies</h3>
+                <ul class="list-disc list-inside">
                     @foreach($companies as $company)
-                        <li class="text-white">{{ $company->company_type }} - {{ $company->created_at->diffForHumans() }}</li>
+                        <li class="text-white list-item">{{ $company->company_type }} - {{ $company->created_at->diffForHumans() }}</li>
                     @endforeach
                 </ul>
+            </div>
 
 
         </div>
