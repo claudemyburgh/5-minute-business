@@ -1,13 +1,24 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-_vgbHNjj.css",
+    "file": "assets/app-HmQzsLc6.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
-  "resources/js/app.js": {
-    "file": "assets/app-C1-XIpUa.js",
+  "resources/fonts/druk-bold-web-webfont.woff": {
+    "file": "assets/druk-bold-web-webfont-399onpbU.woff",
+    "src": "resources/fonts/druk-bold-web-webfont.woff"
+  },
+  "resources/fonts/druk-bold-web-webfont.woff2": {
+    "file": "assets/druk-bold-web-webfont-VL2d3aol.woff2",
+    "src": "resources/fonts/druk-bold-web-webfont.woff2"
+  },
+  "resources/ts/app.ts": {
+    "file": "assets/app-ClnCiNNE.js",
     "name": "app",
-    "src": "resources/js/app.js",
-    "isEntry": true
+    "src": "resources/ts/app.ts",
+    "isEntry": true,
+    "css": [
+      "assets/app-CEzdm8Kq.css"
+    ]
   }
 }

@@ -17,10 +17,12 @@
             @endforeach
             <span class="opacity-5">and many more ...</span>
         </div>
-        <section class="bg-gray-800 rounded border border-gray-700 p-10">
+        <section data-tilt data-tilt-max="20" data-tilt-speed="1400" data-tilt-perspective="1500" class="bg-gray-800 relative shadow-2xl shadow-black/30 rounded border border-gray-700 p-10">
+           
             <div class="splide splide_names" aria-label="Business Name Generator">
                 <span class="font-semibold text-xl mb-2 inline-block select-none">Business Name</span>
-                <div style="width: 320px; height: 64px; overflow: clip;" class="splide__track border-2 border-primary-500 rounded bg-white/90 dark:bg-gray-800/90 ">
+                <div style="width: 320px; height: 64px; overflow: clip;" class="splide__track border-2 relative border-primary-500 rounded bg-white/90 dark:bg-gray-800/90 ">
+
                     <div class="splide__list block">
                         @foreach(collect($business_names) as $name)
                             <div class="splide__slide flex items-center px-4 bg-transparent text-xl border-0 h-[40px] w-full rounded">{{ $name }}</div>
@@ -29,7 +31,6 @@
                 </div>
             </div>
         </section>
-
-
     </div>
+
 </section>

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "12b380d00d715bb19f0fe51d57d16635",
+    "content-hash": "1d96f479f6de1bd20bfce1f585487e41",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -241,16 +241,16 @@
         },
         {
             "name": "designbycode/business-name-generator",
-            "version": "v1.2.2",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/designbycode/business-name-generator.git",
-                "reference": "f56b843da541f8a606f27f07d683b9f7b2720b46"
+                "reference": "94fbe9cc2047f814ffef37e21e3645c0a3bf9827"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/designbycode/business-name-generator/zipball/f56b843da541f8a606f27f07d683b9f7b2720b46",
-                "reference": "f56b843da541f8a606f27f07d683b9f7b2720b46",
+                "url": "https://api.github.com/repos/designbycode/business-name-generator/zipball/94fbe9cc2047f814ffef37e21e3645c0a3bf9827",
+                "reference": "94fbe9cc2047f814ffef37e21e3645c0a3bf9827",
                 "shasum": ""
             },
             "require": {
@@ -286,7 +286,7 @@
             ],
             "support": {
                 "issues": "https://github.com/designbycode/business-name-generator/issues",
-                "source": "https://github.com/designbycode/business-name-generator/tree/v1.2.2"
+                "source": "https://github.com/designbycode/business-name-generator/tree/v2.0.1"
             },
             "funding": [
                 {
@@ -294,24 +294,24 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-06-08T20:55:51+00:00"
+            "time": "2024-06-17T00:49:10+00:00"
         },
         {
             "name": "designbycode/laravel-business-name-generator",
-            "version": "v1.2.0",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/designbycode/laravel-business-name-generator.git",
-                "reference": "096a48ca64a558bbdf95a2650898bc3b660e8e02"
+                "reference": "d6481f2c176440c50b6e045dff32194f31e44978"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/designbycode/laravel-business-name-generator/zipball/096a48ca64a558bbdf95a2650898bc3b660e8e02",
-                "reference": "096a48ca64a558bbdf95a2650898bc3b660e8e02",
+                "url": "https://api.github.com/repos/designbycode/laravel-business-name-generator/zipball/d6481f2c176440c50b6e045dff32194f31e44978",
+                "reference": "d6481f2c176440c50b6e045dff32194f31e44978",
                 "shasum": ""
             },
             "require": {
-                "designbycode/business-name-generator": "^1.1.0",
+                "designbycode/business-name-generator": "^2.0",
                 "illuminate/contracts": "^10.0||^11.0",
                 "php": "^8.2|^8.3",
                 "spatie/laravel-package-tools": "^1.16"
@@ -366,7 +366,7 @@
             ],
             "support": {
                 "issues": "https://github.com/designbycode/laravel-business-name-generator/issues",
-                "source": "https://github.com/designbycode/laravel-business-name-generator/tree/v1.2.0"
+                "source": "https://github.com/designbycode/laravel-business-name-generator/tree/v2.0.0"
             },
             "funding": [
                 {
@@ -374,7 +374,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-06-08T18:25:12+00:00"
+            "time": "2024-06-17T01:06:29+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -9788,5 +9788,5 @@
         "php": "^8.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }

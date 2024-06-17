@@ -21,6 +21,19 @@
     .wrapper {
         @apply w-full max-w-7xl px-4 md:px-6 lg:px-8 mx-auto;
     }
+
+    .tilt {
+        transform-style: preserve-3d;
+        transform: perspective(500px);
+    }
+
+    .tilt .tilt-child-bottom {
+        transform: translateZ(30px);
+    }
+
+    .tilt .tilt-child-top {
+        transform: translateZ(60px);
+    }
 }
 
 
