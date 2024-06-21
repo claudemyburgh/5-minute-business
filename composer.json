@@ -10,6 +10,7 @@
     "require": {
         "php": "^8.2",
         "designbycode/laravel-business-name-generator": "^2.0",
+        "designbycode/south-african-id-validator": "^1.0",
         "laravel/framework": "^11.9",
         "laravel/jetstream": "^5.1",
         "laravel/sanctum": "^4.0",

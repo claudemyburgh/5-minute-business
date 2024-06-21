@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d96f479f6de1bd20bfce1f585487e41",
+    "content-hash": "148106d308fa804a145c3799a7d90c00",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -375,6 +375,122 @@
                 }
             ],
             "time": "2024-06-17T01:06:29+00:00"
+        },
+        {
+            "name": "designbycode/luhn-algorithm",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/designbycode/luhn-algorithm.git",
+                "reference": "3b499fb90d1204e79f0950a058386ef57062acc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/designbycode/luhn-algorithm/zipball/3b499fb90d1204e79f0950a058386ef57062acc3",
+                "reference": "3b499fb90d1204e79f0950a058386ef57062acc3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1|^8.2|^8.3"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.0",
+                "pestphp/pest": "^2.20",
+                "spatie/ray": "^1.28"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Designbycode\\LuhnAlgorithm\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "claudemyburgh",
+                    "email": "claude@designbycode.co.za",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is my package luhn-algorithm",
+            "homepage": "https://github.com/designbycode/luhn-algorithm",
+            "keywords": [
+                "designbycode",
+                "luhn-algorithm"
+            ],
+            "support": {
+                "issues": "https://github.com/designbycode/luhn-algorithm/issues",
+                "source": "https://github.com/designbycode/luhn-algorithm/tree/v1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/designbycode",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-06-19T14:31:40+00:00"
+        },
+        {
+            "name": "designbycode/south-african-id-validator",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/designbycode/south-african-id-validator.git",
+                "reference": "d4d91ac859706b140dfe0cf979db90dd3fc629eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/designbycode/south-african-id-validator/zipball/d4d91ac859706b140dfe0cf979db90dd3fc629eb",
+                "reference": "d4d91ac859706b140dfe0cf979db90dd3fc629eb",
+                "shasum": ""
+            },
+            "require": {
+                "designbycode/luhn-algorithm": "^1.0",
+                "nesbot/carbon": "^3.5",
+                "php": "^8.1|^8.2|^8.3"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.0",
+                "pestphp/pest": "^2.20",
+                "spatie/ray": "^1.28"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Designbycode\\SouthAfricanIdValidator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Claude Myburgh",
+                    "email": "claude@designbycode.co.za",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is my package south-african-id-validator",
+            "homepage": "https://github.com/designbycode/south-african-id-validator",
+            "keywords": [
+                "designbycode",
+                "south-african-id-validator"
+            ],
+            "support": {
+                "issues": "https://github.com/designbycode/south-african-id-validator/issues",
+                "source": "https://github.com/designbycode/south-african-id-validator/tree/v1.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/designbycode",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-06-19T15:17:30+00:00"
         },
         {
             "name": "dflydev/dot-access-data",

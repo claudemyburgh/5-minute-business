@@ -2,7 +2,7 @@
     <div class="wrapper">
         <div class="flex justify-end items-center">
             <div class="flex items-center">
-                <a class="font-druk text-5xl text-transparent bg-gradient-to-b from-primary-500 to-primary-600/50 bg-clip-text" href="{{ route('dashboard.index') }}">
+                <a class="font-druk text-5xl text-transparent bg-gradient-to-b from-primary-500 to-primary-600/50 bg-clip-text" href="{{ route('home') }}">
                     {{ config('app.name') }}
                 </a>
             </div>

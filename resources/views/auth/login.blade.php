@@ -4,28 +4,30 @@
             <a class="font-druk text-7xl text-primary-500" href="{{ route('dashboard.index') }}">
                 {{ config('app.name') }}
             </a>
-{{--            <x-authentication-card-logo />--}}
+            {{--            <x-authentication-card-logo />--}}
         </x-slot>
 
         <x-validation-errors class="mb-4" />
 
         @session('status')
-            <div class="mb-4 font-medium text-sm text-green-600 dark:text-green-400">
-                {{ $value }}
-            </div>
+        <div class="mb-4 font-medium text-sm text-green-600 dark:text-green-400">
+            {{ $value }}
+        </div>
         @endsession
 
         <form method="POST" action="{{ route('login') }}">
             @csrf
 
             <div>
-                <x-label for="email" value="{{ __('Email') }}" />
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
+                <x-label for="south_african_id" value="{{ __('South African ID') }}" />
+                <x-input id="south_african_id" class="block mt-1 w-full" type="text" name="south_african_id" :value="old('south_african_id')" autofocus />
+                <x-input-error class="mt-1" for="south_african_id" />
             </div>
 
             <div class="mt-4">
                 <x-label for="password" value="{{ __('Password') }}" />
-                <x-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
+                <x-input id="password" class="block mt-1 w-full" type="password" name="password" autocomplete="current-password" />
+                <x-input-error class="mt-1" for="password" />
             </div>
 
             <div class="block mt-4">
@@ -37,7 +39,8 @@
 
             <div class="flex items-center justify-end mt-4">
                 @if (Route::has('password.request'))
-                    <a class="underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-800" href="{{ route('password.request') }}">
+                    <a class="underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-800"
+                       href="{{ route('password.request') }}">
                         {{ __('Forgot your password?') }}
                     </a>
                 @endif
