@@ -1,4 +1,4 @@
-<header class="bg-gray-100/50 dark:bg-gray-900/80 w-full fixed backdrop-blur inset-x-0 top-0 min-h-[50px] items-center flex shadow shadow-primary-500/20 z-50">
+<header class="bg-gray-100/50 dark:bg-gray-900/80 w-full fixed backdrop-blur inset-x-0 top-0 min-h-[60px]  items-center flex shadow shadow-primary-500/20 z-50">
     <div class="wrapper">
         <div class="flex justify-end items-center">
             <div class="flex items-center">
@@ -6,6 +6,14 @@
                     {{ config('app.name') }}
                 </a>
             </div>
+            <div class="links mx-6">
+                <x-nav-link class="h-full min-h-[60px] px-6" href="{{ route('home') }}">Home</x-nav-link>
+                <x-nav-link class="h-full min-h-[60px] px-6" href="{{ route('home') }}">Tool</x-nav-link>
+                <x-nav-link class="h-full min-h-[60px] px-6" href="{{ route('home') }}">Recommend</x-nav-link>
+                <x-nav-link class="h-full min-h-[60px] px-6" href="{{ route('home') }}">Faq's</x-nav-link>
+                <x-nav-link class="h-full min-h-[60px] px-6" href="{{ route('home') }}">Contact Us</x-nav-link>
+            </div>
+
             @if (Route::has('login'))
                 <nav class="-mx-3 flex flex-1 justify-end">
                     @auth
